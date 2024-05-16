@@ -6,22 +6,63 @@
     font-family: Helvetica;
 }
 
-#section1 {
+nav{
+    display: flex;
+    background-color: aqua;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+#navItems{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 40px 20px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-size: 25px;
+}
+
+#logo{
+    height: 70px;
+}
+
+#landing{
+    background-color: yellowgreen;
+    height: 900px;
+    margin-top: 70px;
+}
+
+
+
+
+
+
+/* #section1 {
     display: flex;
     background-image: url(/images/landing.jpg);
     background-repeat: round;
-    background-size: contain;
+    background-size: cover;
     flex-direction: column;
     height: 900px;
 }
 
-#navigation {
+nav {
     display: flex;
     background: white;
     justify-content: space-between;
     list-style: none; 
     position: fixed;
     width: 100%; 
+    z-index: 100;
 }
 
 #logo {
@@ -31,8 +72,6 @@
 
 #list {
     display: flex;
-    margin: 0;
-    margin: 15px 40px; 
     list-style: none;
     justify-content: space-around;
   }
@@ -58,9 +97,9 @@
     text-align: center;
     margin-top: 30px;
     font-size: 35px;
-  }
+  } */
 
-#section2 {
+/* #section2 {
     padding: 40px;   
 }
 
@@ -75,7 +114,7 @@
 #subSection {
     display: flex;
     text-align: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin: 60px;
     font-size: 25px;   
 }
@@ -97,11 +136,13 @@
 
 #section3{
     display: flex;
+    position: relative;
     background-color: #1DB954;
     margin: 40px;
     justify-content: space-between;
     color: white;
     padding: 100px
+    
 }
 
 #title3{
@@ -133,10 +174,10 @@
 #icon{
     height: 150px;
     position: absolute;
-    top: 1900px;
+    top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     margin: auto;
 }
-
+ */
